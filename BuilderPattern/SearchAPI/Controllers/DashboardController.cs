@@ -22,7 +22,7 @@ namespace SearchAPI.Controllers
 
         [HttpGet]
         [Route("")]
-        public async Task<IActionResult> Get([FromBody] DashboardFilters request) =>
-            Ok(await _dashboardService.GetDashboardDetails(request));
+        public async Task<IActionResult> Get() =>
+            Ok(await _dashboardService.GetDashboardDetails(new DashboardFilters()));
     }
 }
