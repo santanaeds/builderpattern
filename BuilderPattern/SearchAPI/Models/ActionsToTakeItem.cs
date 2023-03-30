@@ -1,5 +1,5 @@
-﻿using SearchAPI.Extensions;
-using System.Text.Json.Serialization;
+﻿using Newtonsoft.Json;
+using SearchAPI.Extensions;
 
 namespace SearchAPI.Models
 {

@@ -34,5 +34,14 @@
             public const string BingApiRoutes = nameof(BingApiRoutes);
             public const string BingMapsKey = nameof(BingMapsKey);
         }
+
+        public static class ErrorCode
+        {
+            public const string UnAuthorized = nameof(UnAuthorized);
+            public const string InvalidArgument = nameof(InvalidArgument);
+            public const string DocumentNotFound = nameof(DocumentNotFound);
+            public const string InvalidOperation = nameof(InvalidOperation);
+            public const string Unknown = nameof(Unknown);
+        }
     }
 }

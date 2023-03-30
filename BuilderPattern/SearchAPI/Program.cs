@@ -49,4 +49,5 @@ var app = builder.Build();
 
 app.UseAuthorization();
 app.MapControllers();
+app.UseExceptionHandler(options => { options.Run(ExceptionHandler.HandleExceptionAsync); });
 app.Run();
